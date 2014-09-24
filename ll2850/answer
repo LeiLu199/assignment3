@@ -1,0 +1,25 @@
+1. 
+import os
+os.path.abspath?
+/usr/lib/python2.7/posixpath.py
+
+
+2. 
+num=int(os.poppen(‘!ls /etc|wc -w’).read()
+
+There are 234 files in /etc
+
+3. import math
+print sqrt(num)
+
+4. 
+import numpy
+x=12345
+%timeit x**2
+%timeit x*x
+%timeit numpy.square(x)
+The fastest operation is x*x
+
+5. 
+%lsmagic
+There are 24 cell magic commands.
