@@ -5,12 +5,14 @@ os.path.abspath?
 
 
 2. 
-num=int(os.poppen(‘!ls /etc|wc -w’).read()
+num=int(os.popen('ls /etc |wc -l').read())
+print num
 
 There are 234 files in /etc
 
 3. import math
-print sqrt(num)
+print math.sqrt(num)
+15.2970585408
 
 4. 
 import numpy

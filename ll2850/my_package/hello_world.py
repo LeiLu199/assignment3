@@ -1,11 +1,7 @@
-#
-#python hello world
-#
 
 def hello_world():
-    print "Hello World!"
+    return "Hello World!"
 
-if__name__=="__main__":
-        import sys
-        hello_world()
-  
+if __name__ == "__main__":
+    import sys
+    print hello_world()
